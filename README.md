@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Memoteca
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# Memoteca_ANGULAR
+Sistema de criação e manutenção de cards em um mural pelo Framework Angular.
+>>>>>>> 41940631a6766edd66cdf2c64b0824cebaf5487a
