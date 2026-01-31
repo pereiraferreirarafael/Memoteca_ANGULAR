@@ -29,4 +29,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # Memoteca_ANGULAR
 Sistema de criação e manutenção de cards em um mural pelo Framework Angular.
+## Memoteca Angular
+
+Projeto desenvolvido em Angular para estudo de componentes e serviços.
+
+### Tecnologias
+- Angular
+- TypeScript
+- JSON Server
+
+### Como rodar
+npm install  
+ng serve
+
 >>>>>>> 41940631a6766edd66cdf2c64b0824cebaf5487a
