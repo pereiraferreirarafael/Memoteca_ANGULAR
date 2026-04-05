@@ -1,45 +1,62 @@
-<<<<<<< HEAD
-# Memoteca
+# 🧠 Memoteca Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+## 📌 Sobre o projeto
 
-## Development server
+A Memoteca é uma aplicação web desenvolvida em Angular para cadastro, listagem e gerenciamento de pensamentos e citações.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O projeto simula um CRUD completo, permitindo criar, visualizar, editar e excluir pensamentos, utilizando boas práticas de desenvolvimento frontend.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🖼️ Preview
 
-## Build
+<img width="1897" height="1199" alt="Captura de tela 2026-04-05 125459" src="https://github.com/user-attachments/assets/9b9ecb8d-5018-4c2f-a367-8696fa9d3091" />
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## 🛠️ Tecnologias utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# Memoteca_ANGULAR
-Sistema de criação e manutenção de cards em um mural pelo Framework Angular.
-## Memoteca Angular
-
-Projeto desenvolvido em Angular para estudo de componentes e serviços.
-
-### Tecnologias
 - Angular
 - TypeScript
+- HTML5
+- CSS3
 - JSON Server
 
-### Como rodar
-npm install  
-ng serve
 
->>>>>>> 41940631a6766edd66cdf2c64b0824cebaf5487a
+## ⚙️ Funcionalidades
+
+- ➕ Cadastro de pensamentos
+- 📋 Listagem de pensamentos
+- ✏️ Edição de conteúdo
+- ❌ Exclusão de registros
+- 🔍 Organização de dados em interface amigável
+
+
+## 🧠 Arquitetura
+
+- Estrutura baseada em componentes Angular
+- Separação de responsabilidades (components, services, models)
+- Utilização de serviços para comunicação com API
+- Injeção de dependência (Dependency Injection)
+
+
+## 🔗 Integração com API
+
+A aplicação utiliza um servidor fake com JSON Server para simular uma API REST local.
+
+⚠️ Importante:  
+Para funcionar corretamente, o backend deve estar rodando localmente.
+
+
+## ▶️ Como rodar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/pereiraferreirarafael/Memoteca_ANGULAR
+
+# Entre na pasta
+cd Memoteca_ANGULAR
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+ng serve
