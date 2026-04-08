@@ -134,6 +134,13 @@
       "id": 25
     },
     {
+      "conteudo": "A vingança nunca é plenis... mata a alma e a envenenis...",
+      "autoria": "Seu Madruguis",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 26
+    },
+    {
       "conteudo": "Resolver o bug não consegue? Esfriar a cabeça você deve.",
       "autoria": "Mestre Yoda",
       "modelo": "modelo1",
@@ -148,11 +155,11 @@
       "id": 28
     },
     {
-      "conteudo": "Parangari",
-      "autoria": "Cutirimirruaro",
-      "modelo": "modelo3",
+      "conteudo": "Eu vou contar até três! ",
+      "autoria": "Mãe",
+      "modelo": "modelo2",
       "favorito": false,
-      "id": 30
+      "id": 29
     }
   ]
 }
