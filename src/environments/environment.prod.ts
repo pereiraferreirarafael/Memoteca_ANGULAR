@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  // Troque pela URL pública do backend (ex.: Railway)
-  apiUrl: 'https://SEU-BACKEND.up.railway.app'
+  supabaseUrl: 'https://wznqfnwnixpzhvosoxyp.supabase.co',
+  supabaseKey: 'sb_publishable_9dIu8bMqUjz4XFTODlDTTw_IOD6YWP8'
 };

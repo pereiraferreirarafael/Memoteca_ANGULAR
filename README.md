@@ -18,7 +18,7 @@ O projeto simula um CRUD completo, permitindo criar, visualizar, editar e exclui
 - TypeScript
 - HTML5
 - CSS3
-- JSON Server
+- Supabase (PostgreSQL + API REST)
 
 
 ## ⚙️ Funcionalidades
@@ -40,10 +40,10 @@ O projeto simula um CRUD completo, permitindo criar, visualizar, editar e exclui
 
 ## 🔗 Integração com API
 
-A aplicação utiliza um servidor fake com JSON Server para simular uma API REST local.
+A aplicação consome a API REST do Supabase (PostgREST). A tabela `pensamentos` é criada pela migração em `supabase/migrations/`, e a URL e a chave pública (anon/publishable) ficam em `src/environments/`.
 
 ⚠️ Importante:  
-Para funcionar corretamente, o backend deve estar rodando localmente.
+Não é necessário rodar nenhum backend local. A tabela tem acesso público de leitura e escrita (RLS com políticas abertas), pois o app não possui login.
 
 
 ## ▶️ Como rodar o projeto

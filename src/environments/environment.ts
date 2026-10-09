@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:3000'
+  supabaseUrl: 'https://wznqfnwnixpzhvosoxyp.supabase.co',
+  supabaseKey: 'sb_publishable_9dIu8bMqUjz4XFTODlDTTw_IOD6YWP8'
 };
 
 /*
